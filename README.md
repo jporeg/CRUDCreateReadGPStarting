@@ -1,32 +1,7 @@
-<<<<<<< HEAD
-# CRUDCreateReadGPStarting
-4.2 GP
-=======
-# MeanCrudBooklist
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
->>>>>>> 0fba961 (Initial commit)
+![image](https://github.com/user-attachments/assets/d563b19a-6888-4767-963a-7a0995615845)
+![image](https://github.com/user-attachments/assets/4647ccc8-dcef-4bd7-b7ac-4faca801f185)
+![image](https://github.com/user-attachments/assets/75caf01e-a809-4c89-a756-8273cd9b1c37)
+![image](https://github.com/user-attachments/assets/67ac2ee1-73c5-4af4-b568-df0fd993d8a6)
+![image](https://github.com/user-attachments/assets/efe4c0d2-6e85-4f06-ad54-d8b698bcba1b)
+![image](https://github.com/user-attachments/assets/9723cdd1-8a1d-4a72-935d-cbf2537cce8e)
+![image](https://github.com/user-attachments/assets/4ca9bf7f-8630-48b8-8774-afda9197090b)
