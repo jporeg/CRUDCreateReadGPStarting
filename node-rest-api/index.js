@@ -3,7 +3,7 @@ let express = require('express'),
   mongoose = require('mongoose'),
   cors = require('cors'),
   bodyParser = require('body-parser'),
-  mongoDb = require('./database/db'),
+  mongoDb = require('./node-backend/database/db'),
   createError = require('http-errors');
  
 mongoose.Promise = global.Promise;
@@ -16,7 +16,7 @@ mongoose.connect(mongoDb.db, {
   }
 )
  
-const bookRoute = require('./routes/book.routes')
+const bookRoute = require('./node-backend/routes/book.routes')
  
 const app = express();
 app.use(bodyParser.json());

@@ -32,6 +32,14 @@ AddBook(data: Book): Observable<any> {
   );
   }
 
+  // Delete
+ DeleteBook(id: any): Observable<any> {
+  let API_URL = `${this.REST_API}/delete-book/${id}`;
+  return this.httpClient.delete(API_URL, { headers: this.httpHeaders })
+  .pipe(
+  catchError(this.handleError)
+  );
+  }
 
   // Error 
   handleError(error: HttpErrorResponse) {
