@@ -18,32 +18,15 @@ bookRoute.route('/').get((req, res) => {
 
 // Add a book
 bookRoute.route('/add-book').post((req, res) => {
-    Book.create(req.body)
-        .then(() => {
-            console.log('Book added successfully.');
-            res.status(200).send('Book added successfully');  // Added a success message
-        })
-        .catch((error) => {
-            console.error(`Could not save book: ${error}`);
-            res.status(500).send(`Error: ${error.message}`);  // Sending an error response
-        });
-});
-
-// Delete a book
-bookRoute.route('/delete-book/:id').delete((req, res) => {
-    console.log(`Preparing to delete: ${req.params.id}`);
-    Book.findByIdAndDelete(req.params.id)
-        .then(() => {
-            console.log('Book deleted successfully.');
-            res.status(200).send('Book deleted successfully');  // Added a success message
-        })
-        .catch((error) => {
-            console.error(`Could not delete book: ${error}`);
-            res.status(500).send(`Error: ${error.message}`);  // Sending an error response
-        });
-});
-
-module.exports = bookRoute;
-
+  Book.create(req.body).then(() => {
+  console.log('Book added successfully.');
+  res.status(200);
+  })
+  .catch((error) => {
+  console.error(`Could not save book: ${error}`);
+  })
+  })
+  
+  module.exports = bookRoute;
   
 

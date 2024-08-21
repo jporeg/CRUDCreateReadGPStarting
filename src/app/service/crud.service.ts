@@ -31,15 +31,24 @@ AddBook(data: Book): Observable<any> {
   catchError(this.handleError)
   );
   }
+<<<<<<< HEAD
 
   // Delete
  DeleteBook(id: any): Observable<any> {
+=======
+// Delete
+DeleteBook(id: any): Observable<any> {
+>>>>>>> 296b488 (Initial commit)
   let API_URL = `${this.REST_API}/delete-book/${id}`;
   return this.httpClient.delete(API_URL, { headers: this.httpHeaders })
   .pipe(
   catchError(this.handleError)
   );
   }
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> 296b488 (Initial commit)
 
   // Error 
   handleError(error: HttpErrorResponse) {

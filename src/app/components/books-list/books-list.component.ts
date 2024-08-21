@@ -25,4 +25,8 @@ export class BooksListComponent implements OnInit {
     })
     location.reload();
     }
+<<<<<<< HEAD
+=======
+   
+>>>>>>> 296b488 (Initial commit)
 }
